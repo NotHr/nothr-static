@@ -1,81 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-
-
-html,body{
-    overflow-x: hidden;
-    overflow-y: hidden;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
-nav{
-    background-color: black;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    box-shadow: 0 0 5px black;
+nav {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 0 0 5px black;
 }
-.nav-box{
-    background: transparent;
-    height: 60px;
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items:  center;
+.nav-box {
+  background: transparent;
+  height: 60px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.nav-box span{
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
+.nav-box span {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
 }
-.nav-box ul{
-    
-    display: flex;
-    width: 18vh;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    font-family: 'Josefin Sans', sans-serif;
+.nav-box ul {
+  display: flex;
+  width: 18vh;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: "Josefin Sans", sans-serif;
 }
-.nav-box ul li a{
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
+.nav-box ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 
-.nav-box ul li a:hover{
-    color: blue;
-    animation: 3s ease-in-out;
-    
+.nav-box ul li a:hover {
+  color: blue;
+  animation: 3s ease-in-out;
 }
-.hero{
-    display: flex;
-    flex-direction: column;
-    height:85vh;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Josefin Sans', sans-serif;
-    
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
 }
-.hero img{
-    border-radius: 20%;
-    height: 300px;
-    width: 300px;
-    margin-bottom: 2rem;
+.hero img {
+  border-radius: 20%;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 2rem;
 }
-footer{
-    margin-top: auto;
-    display: flex;
-    color: white;
-    justify-content: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bolder;
-    
+footer {
+  margin-top: auto;
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
 }
